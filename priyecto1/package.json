@@ -4,7 +4,6 @@
   "description": "este es mi primer proyecto",
   "main": "index.js",
   "scripts": {
-    
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,5 +11,8 @@
     "hola"
   ],
   "author": "gersom cedeño",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
 }
